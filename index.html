@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css">
+</head>
+<body>
+    
+    <!--HEADER-->
+    <header>
+        <section class="header__section">
+        <div class="header__top">
+            <img class="header__img-meteo" src="assets/img/meteo.PNG" alt="meteo">
+            <img class="header__img-logo" src="assets/img/Logo.png" alt="logo">
+            <div class="menu__overlay" onclick="toggleBurgerMenu()"></div>
+            <nav class="header__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" style="color: black; text-shadow:02px 2px 2px black;">A propos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Recherche</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger__menu" onclick="toggleBurgerMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <hr/>
+
+        <div class="header__bottom">
+            <nav>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#Montre">Montres</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Automobile">Automobile</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Lifestyle">Lifestyle</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Sport">Sports</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </section>
+    </header>
+
+    <!--MAIN-->
+    <main>
+
+        <!--HERO SECTION-->
+        <section class="section__hero">
+            <div class="hero__first">
+                <img src="assets/img/hero1.png">
+                <div class="hero__card">
+                    <div class="div-group"><p class="actuality__group">Automobile <pre class="actuality__sub-group"> - Voitures de collection</pre></p></div>
+                    <h2 class="actuality__titles">Jaguar Type E, un rêve qui pourrait être réalité</h2>
+                    <p class="p-hero">S'offrir une Jaguar Type E demeure encore aujourd'hui le rêve de très nombreux passionés d'automobile ancienne. Il faut dire qu'avec sa silhouette fantastique...</p>
+                    <a href="#" class="more__link">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+
+            <div class="hero__second">
+                <img src="assets/img/hero2.png">
+                <div class="hero__card-second">
+                    <div class="div-group"><p class="actuality__group">Lifestyle<pre class="actuality__sub-group"> - Vins & alcools</pre></p></div>
+                    <h2 class="actuality__titles">Le whisky, une nouvelle passion française qui se cultive au verre</h2>
+                    <p class="p-hero">On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même...</p>
+                    <a href="#" class="more__link">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--ARTICLE MONTRES-->
+        <section class="section__item">
+            <!--Title Montres-->
+            <div class="item__title">
+                <div class="horizontal__line"></div>
+
+                <div id="Montre" class="articles__title">
+                    <span class="title__block">Montres</span>
+                </div>
+
+                <div class="horizontal__line"></div>
+            </div>
+
+            <!--Redirections pages-->
+            <div class="item__link">
+                <div class="articles__link">
+                    <a href="#" class="link-gray">Actualités</a>
+                    <a href="#" class="link-gray">Fiche Technique</a>
+                    <a href="#" class="link-gray">Investir</a>
+
+                    <a href="#" class="link-red">Tout voir <i class="fas fa-long-arrow-alt-right"></i> </a>
+                </div>
+            </div>
+
+            <!--Articles-->
+            <div class="item__div">
+                <div class="article">
+                    <img src="assets/img/Montre.png" alt="Montre Patek Philippe">
+                    <p class="actuality__group">Montres - Actualités</p>
+                    <h3>Patek Phillipe & Tiffany : une histoire d'amour qui ne fait que durer</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i> </a>
+                </div>
+
+                <div class="article">
+                    <img src="assets/img/Montre2.png" alt="Entretenir sa montre">
+                    <p class="actuality__group">Montres - Fiche Tec</p>
+                    <h3>Bien entretenir sa montres pendant ses déplacements professionnels</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="article">
+                    <img src="assets/img/Montre3.png" alt="Choisir sa montre">
+                    <p class="actuality__group">Montres - Investir</p>
+                    <h3>Comment bien choisir une montre de collection ?</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--ARTICLE AUTOMOBILES-->
+        <section class="section__item">
+            <!--Title Automobiles-->
+            <div class="item__title">
+                <div class="horizontal__line"></div>
+
+                <div id="Automobile" class="articles__title">
+                    <span class="title__block">Automobile</span>
+                </div>
+
+                <div class="horizontal__line"></div>
+            </div>
+
+            <!--Redirections pages-->
+            <div class="item__link">
+                <div class="articles__link">
+                    <a href="#" class="link-gray">Voitures de collection</a>
+                    <a href="#" class="link-gray">Revues techniques</a>
+                    <a href="#" class="link-gray">Tests drives</a>
+
+                    <a href="#" class="link-red">Tout voir <i class="fas fa-long-arrow-alt-right"></i> </a>
+                </div>
+            </div>
+
+            <!--Articles-->
+            <div class="item__div">
+                <div class="article">
+                    <img src="assets/img/Auto.png" alt="Gran Palais auto">
+                    <p class="actuality__group">Montres - Actualités</p>
+                    <h3>Patek Phillipe & Tiffany : une histoire d'amour qui ne fait que durer</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="article">
+                    <img src="assets/img/Auto2.png" alt="Nouvelle Ferrari">
+                    <p class="actuality__group">Montres - Fiche Tec</p>
+                    <h3>Bien entretenir sa montres pendant ses déplacements professionnels</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="article">
+                    <img src="assets/img/Auto3.png" alt="Costume auto">
+                    <p class="actuality__group">Montres - Investir</p>
+                    <h3>Comment bien choisir une montre de collection ?</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__signup">
+            <div class="signup__title">
+                <h2>La newsletter <i>Silver Bird</i></h2>
+                <p>Retrouvez l'actualité qui compte pour vous toutes les semaines dans votre boîte mail. Sans spam, sauf pour nos ventes privées !</p>
+                <button>Inscrivez-vous !</button>
+            </div>
+        </section>
+
+
+        <!--ARTICLE LIFESTYLE-->
+        <section class="section__item">
+            <!--Title Lifestyle-->
+            <div class="item__title">
+                <div class="horizontal__line"></div>
+
+                <div id="Lifestyle" class="articles__title">
+                    <span class="title__block">Lifestyle</span>
+                </div>
+
+                <div class="horizontal__line"></div>
+            </div>
+
+            <!--Redirections pages-->
+            <div class="item__link">
+                <div class="articles__link">
+                    <a href="#" class="link-gray">Gastronomie</a>
+                    <a href="#" class="link-gray">Vin & alcool</a>
+                    <a href="#" class="link-gray">Good spots</a>
+                    <a href="#" class="link-gray">Mode & tendances</a>
+
+                    <a href="#" class="link-red">Tout voir <i class="fas fa-long-arrow-alt-right"></i> </a>
+                </div>
+            </div>
+
+            <!--Articles-->
+            <div class="item__div">
+                <div class="article">
+                    <img src="assets/img/Lifestyle.png" alt="Gran Palais auto">
+                    <p class="actuality__group">Lifestyle - Vins & alcool</p>
+                    <h3>Aberlour : l'un des meilleurs single malt whisky</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="article">
+                    <img src="assets/img/Lifestyle2.png" alt="Nouvelle Ferrari">
+                    <p class="actuality__group">Lifestyle - Gastronomie</p>
+                    <h3>Rencontre avec les fondateurs du groupe Big Mamma</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="article">
+                    <img src="assets/img/Auto3.png" alt="Costume auto">
+                    <p class="actuality__group">Lifestyle - Mode & tendances</p>
+                    <h3>Costume : comment bien l'accorder et le choisir</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--ARTICLE SPORTS-->
+        <section class="section__item">
+            <!--Title Sports-->
+            <div class="item__title">
+                <div class="horizontal__line"></div>
+
+                <div id="Sport" class="articles__title">
+                    <span class="title__block">Sports</span>
+                </div>
+
+                <div class="horizontal__line"></div>
+            </div>
+
+            <!--Redirections pages-->
+            <div class="item__link">
+                <div class="articles__link">
+                    <a href="#" class="link-gray">Voitures de collection</a>
+                    <a href="#" class="link-gray">Revues techniques</a>
+                    <a href="#" class="link-gray">Tests drives</a>
+
+                    <a href="#" class="link-red">Tout voir <i class="fas fa-long-arrow-alt-right"></i> </a>
+                </div>
+            </div>
+
+            <!--Articles-->
+            <div class="item__div">
+                <div class="article">
+                    <img src="assets/img/Auto.png" alt="Gran Palais auto">
+                    <p class="actuality__group">Automobiles - Voiture de collection</p>
+                    <h3>Le Grand Palais ouvre ses portes aux voirtures de collection</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="article">
+                    <img src="assets/img/Auto2.png" alt="Nouvelle Ferrari">
+                    <p class="actuality__group">Automobiles - Tests drives</p>
+                    <h3>Nouvelle Ferrari sur piste ou en ville : notre revue au volant</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="article">
+                    <img src="assets/img/Sport.png" alt="Costume auto">
+                    <p class="actuality__group">Automobiles - Revues techniques</p>
+                    <h3>Le Grand Prix de l'Arc de Triomphe arrive à Paris avec un nouveau favori</h3>
+                    <a href="#">Lire la suite <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer__top">
+            <img src="assets/img/LOGOTYPE.png" alt="Footer Logo">
+
+            <div class="footer__links">
+                <div class="link__category">
+                    <h3>Categories</h3>
+                    <nav class="">
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="#">Montres</a> 
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#">Automobile</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#">Lifestyle</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#">Sport</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="link__category">
+                    <h3>A propos</h3>
+                    <nav class="footer__nav">
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="#">Nos plumes</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#">Annonceurs</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="footer__social">
+                <div class="link__category">
+                    <h3>Rejoignez la newletter</h3>
+                    <button class="newsletter__button">Rester au courant</button>
+                </div>
+                <div class="link__category">
+                    <h3>Suivez-nous</h3>
+                    <nav class="footer__nav">
+                        <ul class="footer__nav-link">
+                            <li class="footer__nav-item">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="footer__nav-item" style="margin-left: 20px;">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="footer__nav-item" style="margin-left: 20px;">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer__hr"/>
+
+        <div class="footer__mention">
+            <p class="mention">Mention legales & C.G.U</p>
+            <p class="copyright">2019 <i class="far fa-copyright"></i> silver bird</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
